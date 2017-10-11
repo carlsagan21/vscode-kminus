@@ -1,0 +1,26 @@
+{
+    "name": "kminus",
+    "displayName": "Kminus",
+    "description": "kminus language support",
+    "version": "0.0.1",
+    "publisher": "sookiwi",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "k-",
+            "aliases": ["K-", "k-"],
+            "extensions": ["k-"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "k-",
+            "scopeName": "source.k-",
+            "path": "./syntaxes/k-.tmLanguage.json"
+        }]
+    }
+}
