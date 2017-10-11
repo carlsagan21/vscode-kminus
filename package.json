@@ -11,16 +11,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "k-",
-            "aliases": ["K-", "k-"],
-            "extensions": ["k-"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "k-",
-            "scopeName": "source.k-",
-            "path": "./syntaxes/k-.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "k-",
+                "aliases": [
+                    "K-",
+                    "k-"
+                ],
+                "extensions": [
+                    "k-"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "k-",
+                "scopeName": "source.k-",
+                "path": "./syntaxes/k-.tmLanguage.json"
+            }
+        ]
     }
 }
