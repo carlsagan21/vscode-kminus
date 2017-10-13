@@ -3,35 +3,26 @@
 	"name": "K-",
 	"patterns": [
 		{
-			"name": "meta.let-function.ocaml",
-			"begin": "\\b(let)\\s+(?!\\(\\*)((proc\\s+)?([a-z_][a-zA-Z0-9_']*)\\b|([a-z_][a-zA-Z0-9_']*\\([^)]+\\)))",
+			"name": "meta.let-function.k-",
+			"begin": "\\b(let)\\s+(?!\\(\\*)(?:(proc\\s+)?([a-z_][a-zA-Z0-9_']*)\\b|([a-z_][a-zA-Z0-9_']*\\([^)]+\\)))",
 			"beginCaptures": {
 				"1": {
-					"name": "keyword.other.function-definition.ocaml"
-				},
-				"3": {
-					"name": "keyword.other.funtion-definition.ocaml"
-				},
-				"4": {
-					"name": "entity.name.function.ocaml"
-				},
-				"5": {
-					"name": "entity.name.function.ocaml"
-				}
-			},
-			"end": "(?:(:)\\s*([^=]+))?(?:(=)|(=)\\s*(?=fun(?:ction)\\b))",
-			"endCaptures": {
-				"1": {
-					"name": "punctuation.separator.function.type-constraint.ocaml"
+					"name": "keyword.other.function-definition.k-"
 				},
 				"2": {
-					"name": "storage.type.ocaml"
+					"name": "keyword.other.function-definition.k-"
 				},
 				"3": {
-					"name": "keyword.operator.ocaml"
+					"name": "entity.name.function.k-"
 				},
 				"4": {
-					"name": "keyword.operator.ocaml"
+					"name": "entity.name.function.k-"
+				}
+			},
+			"end": "(:=)",
+			"endCaptures": {
+				"1": {
+					"name": "keyword.operator.k-"
 				}
 			}
 		},
@@ -52,12 +43,8 @@
 			"match": ":="
 		},
 		{
-			"name": "punctuation.separator.k-",
-			"match": ";"
-		},
-		{
 			"name": "keyword.operator.infix.k-",
-			"match": "[=<>@^&+\\-*/$%|][|!$%&*+./:<=>?@^~-]*"
+			"match": "[=@^&+\\-*/$%|][|!$%&*+./:<=>?@^~-]*"
 		},
 		{
 			"name": "keyword.operator.prefix.k-",
