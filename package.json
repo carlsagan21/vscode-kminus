@@ -2,7 +2,7 @@
     "name": "kminus",
     "displayName": "Kminus",
     "description": "kminus language support",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "sookiwi",
     "repository": "https://github.com/carlsagan21/vscode-kminus",
     "engines": {
