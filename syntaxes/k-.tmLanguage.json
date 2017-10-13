@@ -19,7 +19,7 @@
 					"name": "entity.name.function.k-"
 				}
 			},
-			"end": "(:=)",
+			"end": "(:=|=)",
 			"endCaptures": {
 				"1": {
 					"name": "keyword.operator.k-"
