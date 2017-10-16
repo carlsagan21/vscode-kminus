@@ -1,5 +1,7 @@
 # kminus README
 
+<https://marketplace.visualstudio.com/items?itemName=sookiwi.kminus>
+
 vscode syntax highlighter for K- Language.
 Highly motivated by [k-.vim](https://github.com/simnalamburt/k-.vim)
 
