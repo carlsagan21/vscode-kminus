@@ -7,7 +7,10 @@ Highly motivated by [k-.vim](https://github.com/simnalamburt/k-.vim)
 
 ## Features
 
-K-(케이 마이너스)와 K--는 서울대학교의 프로그래밍 언어 수업에서 과제로 만드는, 모의 프로그래밍 언어입니다. 이 익스텐션을 설치하면 vscode에서 K- 언어의 syntax highlighting을 쓸 수 있게 됩니다.
+K-(케이 마이너스), K--는 서울대학교의 프로그래밍 언어 수업에서 과제로 만드는, 모의 프로그래밍 언어입니다. 이 익스텐션을 설치하면 vscode에서 K-, K-- 언어의 syntax highlighting을 쓸 수 있게 됩니다.
+
+[K-](http://ropas.snu.ac.kr/~ta/4190.310/17/document/K_doc/k-.pdf)
+[K--](http://ropas.snu.ac.kr/~ta/4190.310/17/document/K_doc/k--.pdf)
 
 ## Requirements
 
